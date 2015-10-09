@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :pin
+  resources :pins
   
   root "pins#index"
 end
